@@ -16,6 +16,11 @@
           <i class="nav-sidebar-icon fa-solid fa-chart-line"></i>
           <span class="nav-sidebar-text">Foxhole Stats</span>
         </button>
+        <button class="nav-link text-start" id="wiki-btn" data-bs-toggle="pill" data-bs-target="#wiki-tab"
+                type="button" role="tab" aria-controls="wiki-tab" aria-selected="true">
+          <i class="fa-brands fa-wikipedia-w"></i>
+          <span class="nav-sidebar-text">Foxhole Wiki</span>
+        </button>
         <button class="nav-link text-start" id="logistics-calc-btn" data-bs-toggle="pill" data-bs-target="#logistics-calc-tab"
                 type="button" role="tab" aria-controls="logistics-calc-tab" aria-selected="true">
           <i class="fa-solid fa-box"></i>
@@ -36,8 +41,8 @@
         <div class="tab-pane fade show active" id="foxhole-stats-tab" role="tabpanel" aria-labelledby="foxhole-stats-btn" tabindex="0">
           <iframe src="https://foxholestats.com/" frameborder="0" class="foxhole-stats loaded"></iframe>
         </div>
-        <div class="tab-pane fade" id="reddit-tab" role="tabpanel" aria-labelledby="reddit-btn" tabindex="0">
-          <iframe src="about:blank" frameborder="0" class="reddit"></iframe>
+        <div class="tab-pane fade" id="wiki-tab" role="tabpanel" aria-labelledby="wiki-btn" tabindex="0">
+          <iframe src="about:blank" frameborder="0" class="wiki"></iframe>
         </div>
         <div class="tab-pane fade" id="logistics-calc-tab" role="tabpanel" aria-labelledby="logistics-calc-btn" tabindex="0">
           <iframe src="about:blank" frameborder="0" class="logistics-calc"></iframe>
