@@ -1,0 +1,16 @@
+.main-content {
+  height: 1vh;
+  width: 100%; }
+
+#nav-sidebar-tabs .nav-link {
+  border-radius: 0; }
+#nav-sidebar-tabs .nav-sidebar-text {
+  display: none; }
+#nav-sidebar-tabs:hover .nav-sidebar-text {
+  display: inline; }
+
+#nav-sidebar-contents iframe {
+  height: 100vh;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
